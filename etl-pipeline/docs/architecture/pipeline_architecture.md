@@ -7,13 +7,13 @@
 #### Layer 1: RAW_DATA (Bronze)
 - Schema: RAW_DATA
 - Table: INTERVIEW_QUESTIONS
-- Records: 1,480
+- Records: 25k+
 - Owner: Data ingestion team
 
 #### Layer 2: STAGING (Silver)
 - Schema: STAGING
 - Table: STAGING_INTERVIEW_QUESTIONS  
-- Records: 1,480
+- Records: 25k+
 - Transformations: Clean, categorize, extract skills
 - Owner: Ganesh Gadicherla (ETL pipeline)
 
