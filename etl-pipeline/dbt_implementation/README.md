@@ -68,7 +68,7 @@ dbt build
 ## Outputs
 
 Same transformations as manual SQL ETL, but automated:
-- 1,480 questions in staging (cleaned)
+- 20k+ questions in staging (cleaned)
 - ~60 rows in analytics (aggregated)
 
 ## Advantages Over Manual SQL
