@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw interview questions data"
+    database: jobprep_db
+    schema: raw_data
+    tables:
+      - name: interview_questions
+        description: "Raw interview questions from multiple companies"
+        columns:
+          - name: id
+            description: "Unique question identifier"
+          - name: company_name
+            description: "Company conducting the interview"
+          - name: role_name
+            description: "Job role"
+          - name: interview_question
+            description: "The interview question text"
+          - name: difficulty
+            description: "Easy/Medium/Hard"
+          - name: source
+            description: "Question source (LeetCode, etc.)"

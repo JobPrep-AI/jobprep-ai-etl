@@ -1,0 +1,15 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+dbt.log
+
+# Credentials
+profiles.yml
+
+# Python
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
